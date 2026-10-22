@@ -6,9 +6,44 @@ Este repositorio contiene el análisis de datos realizado para ConnectaTel, una 
 Como analista de datos, el objetivo es evaluar el comportamiento de los clientes y comprender cómo utilizan los servicios de llamadas y mensajes, identificar patrones de consumo y detectar oportunidades de mejora en los planes ofrecidos por la empresa.
 El análisis utiliza información registrada hasta el año 2024 y aplica técnicas de limpieza, exploración, análisis estadístico y segmentación de clientes para generar insights que apoyen la toma de decisiones estratégicas.
 
-## 📂 Contenido del repositorio
+## Datasets utilizados
 
-Notebook principal con limpieza, EDA, distribuciones, outliers y conclusiones.
+El análisis utiliza tres conjuntos de datos principales:
+
+users.csv: contiene información de los clientes, como edad, ciudad, fecha de registro, plan contratado y fecha de cancelación del servicio.
+
+plans.csv: contiene información sobre los planes disponibles, incluyendo precios, minutos y gigabytes incluidos, así como los costes por consumo adicional.
+
+usage.csv: contiene registros de uso de los servicios de telecomunicaciones, incluyendo llamadas y mensajes.
+
+Estos datasets permiten combinar información de los clientes, sus planes y sus hábitos de consumo para obtener una visión más completa del comportamiento del negocio
+
+## Etapas del análisis
+
+El proyecto se desarrolló mediante las siguientes etapas:
+
+- Exploración inicial de los datos
+
+Revisión de dimensiones, columnas y tipos de datos.
+Análisis de estadísticas descriptivas.
+Identificación de valores faltantes y posibles inconsistencias.
+
+- Limpieza y preparación de los datos
+
+Identificación de valores faltantes en variables como city, churn_date, date, duration y length.
+Detección del valor centinela -999 en la variable age.
+Revisión de los tipos de datos y de la validez de los valores.
+Evaluación del significado de los valores faltantes antes de decidir cómo tratarlos.
+
+- Análisis exploratorio (EDA)
+
+Análisis de la distribución de edades.
+Estudio del número de llamadas, mensajes y minutos consumidos.
+Cálculo de medidas estadísticas, como la media y la mediana.
+Elaboración de histogramas y boxplots para visualizar distribuciones y posibles valores atípicos.
+
+- Segmentación de clientes
+- Interpretación de resultados y recomendaciones
 
 ## 📘 Cómo reproducir el análisis
 
