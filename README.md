@@ -16,7 +16,7 @@ Notebook principal con limpieza, EDA, distribuciones, outliers y conclusiones.
 2. Ejecuta las celdas en orden
 3. El notebook carga automáticamente el dataset desde el enlace público.
 
-##Conclusiones e Insights Clave
+## Conclusiones e Insights Clave
 
 1. 📊 La calidad de los datos es fundamental para obtener conclusiones confiables
 
